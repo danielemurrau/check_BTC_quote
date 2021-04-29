@@ -1,3 +1,9 @@
+#!/usr/bin/env python
+
+__author__ = “Daniele Murrau”
+__version__ = “0.1.0”
+__status__ = “Dev”
+
 from requests import Request, Session
 from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 import json

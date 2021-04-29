@@ -1,8 +1,6 @@
-#!/usr/bin/env python
-
-__author__ = “Daniele Murrau”
-__version__ = “0.1.0”
-__status__ = “Dev”
+#__author__ = "Daniele Murrau"
+#__version__ = "0.1.0"
+#__status__ = "Dev"
 
 from requests import Request, Session
 from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
@@ -31,7 +29,6 @@ while True:
         print (data['data'][0]['name'] + " ", end = '')
         print (data['data'][0]['symbol'] + " ", end = '')
         print (data['data'][0]['quote']['EUR']['price'])
-        print ("----------------------------------------------")
         time.sleep(10)
     except (ConnectionError, Timeout, TooManyRedirects) as e:
         print(e)

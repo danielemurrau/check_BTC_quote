@@ -29,6 +29,6 @@ while True:
         print (data['data'][0]['name'] + " ", end = '')
         print (data['data'][0]['symbol'] + " ", end = '')
         print (data['data'][0]['quote']['EUR']['price'])
-        time.sleep(10)
+        time.sleep(5)
     except (ConnectionError, Timeout, TooManyRedirects) as e:
         print(e)

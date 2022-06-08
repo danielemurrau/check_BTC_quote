@@ -1,4 +1,4 @@
-# check_BTC_quote
+'''# check_BTC_quote
 Get BTC EUR quote from Coinmarketcap with Python3
 
 Register an account with https://coinmarketcap.com/ and obtain an API key
